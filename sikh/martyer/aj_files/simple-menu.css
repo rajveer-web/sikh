@@ -1,0 +1,83 @@
+﻿/* CSS Document */
+
+/* @group structure */
+
+#head 				{ background-color: #e1ecf6;
+					height: 100px;
+					padding-top:0px;
+					}
+				 
+.wrap 				{ width: 900px;
+					margin: 0 auto;
+					}
+
+
+/* @group core nav menu */
+
+#nav 				{ margin: 0; padding: 0; color: #fff; /* font colour */
+					list-style: none;
+					height: 10px;
+					padding-left: 0px;
+					padding-right: 10px;
+					background-image:url('../images/logo/nav.png') /* background main bar colour was url('../images/logo/nav.png') */
+					}
+ 
+#nav li 			{ float: left; display: block;
+					background-color:transparent;
+					position: relative;
+					z-index: 999;
+					margin: 0 1px; color:#FFFFFF;
+					}
+ 
+#nav li a 			{ display: block;
+					font-weight:bold; line-height: 30px;
+					text-decoration: none;
+					color: #000; /* font colour */
+					zoom: 1;
+					padding: 0px 10px 0px 7px; /* Navigation bar spacing */
+					}
+
+#nav li a:hover, #nav li a.hov 
+					{ background-color:#FF9933; /* background hover colour was #FF9933 */
+					color:#000; /* background font hover colour was #000 */
+					}
+
+
+/* @group subnav */
+
+#nav ul 			{ background-color:#FF6600;
+					filter: alpha(opacity=100); -moz-opacity: 0.85; -khtml-opacity: 0.85; opacity: 0.88;
+					position: absolute; left: 1px; display: none;
+					margin: 0; padding: 0;
+					list-style: none;
+					padding-bottom: 1px;
+					}	
+
+#nav ul li 			{ width: 215px; float: left; 
+
+					text-align: left; background-image:url('../images/logo/nav.png');	} /* background main bar colour was url('../images/logo/nav.png') */
+
+#nav ul li:hover 	{display:block;}
+
+
+/* @group sub subnav */
+
+
+#nav li ul a{ /* background colour width */
+width:195px;
+height:auto;
+float:left;
+}
+
+#nav ul ul{
+top:auto;
+}	
+
+#nav li ul ul { /* background spacing width */
+left:200px;
+margin:0px 0 0 15px;
+}
+
+.arrowright {float:right; vertical-align:middle}
+
+
